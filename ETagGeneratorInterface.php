@@ -2,7 +2,7 @@
 namespace Kpicaza\ETagCache;
 /**
  * Interface ETagGeneratorInterface
- * @package AppBundle\ETagCache
+ * @package Kpicaza\ETagCache
  */
 interface ETagGeneratorInterface
 {

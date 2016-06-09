@@ -1,8 +1,8 @@
 <?php
-namespace AppBundle\Cache;
+namespace Kpicaza\ETagCache;
 /**
  * Interface ETagGeneratorInterface
- * @package AppBundle\Cache
+ * @package AppBundle\ETagCache
  */
 interface ETagGeneratorInterface
 {

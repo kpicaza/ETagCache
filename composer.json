@@ -2,7 +2,7 @@
     "name": "kpicaza/etag-cache",
     "description": "This package provides interfaces to implement etag cache.",
     "keywords": [],
-    "type": "metapackage",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,13 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+        "kpicaza/etag-cache": "^0.0.1"
     },
     "autoload": {
-        "psr-4": { "Kpicaza\\ETagCache\\": "" },
-        "exclude-from-classmap": [
-            "/Tests/"
-        ]
+        "psr-4": { "Kpicaza\\ETagCache\\": "vendor/" }
     },
     "minimum-stability": "dev"
 }
